@@ -26,7 +26,7 @@ window.__i18n = {
   ui: {
     'zh-TW': {
       eyebrow: '👑 股市生存性格趣味測評',
-      title: '最適合你的<br><span class="gold-gradient-text">股票交易風格</span>是什麼？',
+      title: '最適合你的<br><span class="gold-gradient-text">股票交易風格人設</span>是什麼？',
       subtitle: '買股票是修行，也是博弈！本測評用 10 個趣味的日常股市抉擇，幫你解鎖靈魂深處的股市戰士人格，看你到底是穩健大師，還是槓桿狂魔！',
       stat_precision_val: '98.4%',
       stat_precision_lbl: '大數據模型吻合度',
@@ -59,7 +59,7 @@ window.__i18n = {
     },
     'en': {
       eyebrow: '👑 STOCK INVESTOR PERSONALITY QUIZ',
-      title: 'What\'s Your True<br><span class="gold-gradient-text">Stock Trading Style</span>?',
+      title: 'What\'s Your True<br><span class="gold-gradient-text">Stock Trading Persona</span>?',
       subtitle: 'Investing is a journey of self-discovery. Answer 10 fun stock-market scenarios to reveal your inner trader profile—from passive indexing masters to high-stakes leverage warlords!',
       stat_precision_val: '98.4%',
       stat_precision_lbl: 'Data Model Fit Rate',
