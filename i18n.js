@@ -13,8 +13,8 @@ window.__lang = (function() {
 
 // 2. Language-independent results metadata (6 Outcomes)
 const _resultMeta = {
-  passive: { type: "passive", min: 0, max: 11, fit: "98.5%", scores: { FUD: 25, TEC: 15, PAT: 98, RIS: 30, SPD: 10 } },
-  dividend: { type: "dividend", min: 12, max: 13, fit: "96.4%", scores: { FUD: 85, TEC: 20, PAT: 90, RIS: 40, SPD: 15 } },
+  passive: { type: "passive", min: 0, max: 9, fit: "98.5%", scores: { FUD: 25, TEC: 15, PAT: 98, RIS: 30, SPD: 10 } },
+  dividend: { type: "dividend", min: 10, max: 13, fit: "96.4%", scores: { FUD: 85, TEC: 20, PAT: 90, RIS: 40, SPD: 15 } },
   value: { type: "value", min: 14, max: 15, fit: "97.2%", scores: { FUD: 98, TEC: 25, PAT: 85, RIS: 55, SPD: 20 } },
   momentum: { type: "momentum", min: 16, max: 17, fit: "95.8%", scores: { FUD: 30, TEC: 80, PAT: 40, RIS: 75, SPD: 90 } },
   short: { type: "short", min: 18, max: 23, fit: "98.1%", scores: { FUD: 15, TEC: 95, PAT: 15, RIS: 90, SPD: 98 } },

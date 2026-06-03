@@ -12,7 +12,7 @@ const questions = [
     options: [
       { label: "幾乎不看，設定好自動扣款就刪除 APP，半年後才裝回來", score: 0 },
       { label: "一天看個一兩次，主要關心有沒有發股利或帳戶被動成長", score: 1 },
-      { label: "收盤後仔細看，研究法說會或財報是否有新的數據變動", score: 2 },
+      { label: "收盤後仔細看，研究法說會或財報是否有新的數據變動", score: 1 },
       { label: "盤中開著即時報價，心跳跟著綠紅 K 線上下跳動", score: 3 }
     ]
   },
@@ -34,7 +34,7 @@ const questions = [
     options: [
       { label: "大家都在買、規模超大的市場大盤 ETF，買了睡得著覺", score: 0 },
       { label: "歷史配息紀錄超級穩健，年年準時發大紅包的高股息股", score: 1 },
-      { label: "具備強大商業壁壘、產業護城河，且目前本益比合理的個股", score: 2 },
+      { label: "具備強大商業壁壘、產業護城河，且目前本益比合理的個股", score: 1 },
       { label: "剛突破歷史高點、成交量暴增，股價正在風口上的強勢股", score: 3 }
     ]
   },
@@ -56,7 +56,7 @@ const questions = [
     options: [
       { label: "直接買追蹤全市場的被動指數 ETF，分散到數百檔股票中", score: 0 },
       { label: "挑選 5-10 檔歷史悠久、獲利與配息都穩健的大型權值股", score: 1 },
-      { label: "集中持有 3-5 檔自己研究得非常透徹、成長空間大的潛力股", score: 2 },
+      { label: "集中持有 3-5 檔自己研究得非常透徹、成長空間大的潛力股", score: 1 },
       { label: "全倉押注在當下最熱門的題材股或籌碼強勢股，靈活調配", score: 3 }
     ]
   },
@@ -78,7 +78,7 @@ const questions = [
     options: [
       { label: "很少關注個股資訊，主要閱讀資產配置與指數化投資的書籍", score: 0 },
       { label: "追蹤各標的除權息日程、高股息 ETF 成分股季度調整明細", score: 1 },
-      { label: "鑽研公司年報、法說會報告、產業鏈上下游及基本面財務數據", score: 2 },
+      { label: "鑽研公司年報、法說會報告、產業鏈上下游及基本面財務數據", score: 1 },
       { label: "分析 K 線圖、均線排列、RSI/MACD 技術指標與籌碼主力動向", score: 3 }
     ]
   },
@@ -89,7 +89,7 @@ const questions = [
     options: [
       { label: "不需要手動做買入決策，我早就設定好定期定額自動扣款", score: 0 },
       { label: "會觀察幾週，算出合理殖利率，等股價跌到便宜的甜甜價才買", score: 1 },
-      { label: "耗費數週甚至數月進行深度估值與研究，直到安全邊際充足", score: 2 },
+      { label: "耗費數週甚至數月進行深度估值與研究，直到安全邊際充足", score: 1 },
       { label: "一旦看到成交量暴增、線圖突破，幾秒鐘內就能果斷跟進下單", score: 3 }
     ]
   },
@@ -118,8 +118,8 @@ const questions = [
 ];
 
 const results = [
-  { min: 0, max: 11, type: "passive" },
-  { min: 12, max: 13, type: "dividend" },
+  { min: 0, max: 9, type: "passive" },
+  { min: 10, max: 13, type: "dividend" },
   { min: 14, max: 15, type: "value" },
   { min: 16, max: 17, type: "momentum" },
   { min: 18, max: 23, type: "short" },
