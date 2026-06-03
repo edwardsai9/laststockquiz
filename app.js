@@ -118,11 +118,11 @@ const questions = [
 ];
 
 const results = [
-  { min: 0, max: 8, type: "passive" },
-  { min: 9, max: 11, type: "dividend" },
-  { min: 12, max: 15, type: "value" },
-  { min: 16, max: 18, type: "momentum" },
-  { min: 19, max: 23, type: "short" },
+  { min: 0, max: 11, type: "passive" },
+  { min: 12, max: 13, type: "dividend" },
+  { min: 14, max: 15, type: "value" },
+  { min: 16, max: 17, type: "momentum" },
+  { min: 18, max: 23, type: "short" },
   { min: 24, max: 30, type: "leverage" }
 ];
 
