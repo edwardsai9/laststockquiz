@@ -118,12 +118,12 @@ const questions = [
 ];
 
 const results = [
-  { min: 0, max: 5, type: "passive" },
-  { min: 6, max: 10, type: "dividend" },
-  { min: 11, max: 15, type: "value" },
-  { min: 16, max: 20, type: "momentum" },
-  { min: 21, max: 25, type: "short" },
-  { min: 26, max: 30, type: "leverage" }
+  { min: 0, max: 7, type: "passive" },
+  { min: 8, max: 11, type: "dividend" },
+  { min: 12, max: 16, type: "value" },
+  { min: 17, max: 20, type: "momentum" },
+  { min: 21, max: 24, type: "short" },
+  { min: 25, max: 30, type: "leverage" }
 ];
 
 // Initialize Traditional Chinese questions on load
